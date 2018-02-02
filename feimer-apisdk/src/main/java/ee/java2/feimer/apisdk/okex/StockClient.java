@@ -34,7 +34,7 @@ public class StockClient {
 	    IStockRestApi stockPost = new StockRestApi(url_prex, api_key, secret_key);
 		
 	    //现货行情t
-	    stockGet.ticker("eos_usdt");
+	    System.out.println(">>>"+stockGet.ticker("ltc_btc"));
 		/*
 
 		//现货市场深度
